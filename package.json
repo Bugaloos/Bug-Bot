@@ -1,0 +1,27 @@
+{
+  "name": "bug-bot",
+  "version": "1.0.0",
+  "description": "relays nz civil defence tweets to bugout users",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugaloos/Bug-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bugaloos/Bug-Bot/issues"
+  },
+  "homepage": "https://github.com/Bugaloos/Bug-Bot#readme",
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  },
+  "dependencies": {
+    "cloudant": "^1.7.1",
+    "superagent": "^3.4.1",
+    "twitter": "^1.7.0"
+  }
+}
