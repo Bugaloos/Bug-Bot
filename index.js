@@ -1,10 +1,7 @@
 const request = require('superagent')
-const express = require('express')
 const twitterClient = require('./twitter-client')
 const getNewTweets = require('./get-new-tweets')
 const postTweet = require('./post-tweet')
-
-const app = express()
 
 var mostRecentTweet = ''
 
@@ -24,4 +21,3 @@ function bot(){
 
 
 setInterval(bot, 6000)
-app.post('Hello World')
